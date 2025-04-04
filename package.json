@@ -8,6 +8,7 @@
     "dist/7*"
   ],
   "scripts": {
+    "dev": "node server.js",
     "build": "node build.js",
     "deploy": "npm run build && gh-pages -d dist",
     "release": "npm run build && npm publish"

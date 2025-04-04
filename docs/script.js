@@ -83,3 +83,7 @@ document
       }
     });
   });
+
+// Indeterminate Checkbox
+const checkbox = document.querySelector('[data-indeterminate]');
+checkbox.indeterminate = true;
